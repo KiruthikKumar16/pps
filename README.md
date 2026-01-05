@@ -227,7 +227,7 @@ After running `simulate.py`, you'll find:
 ## Project Structure
 
 ```
-geometric-parallel-parking-main/
+pps/
 ├── control.py              # Kinematic model and MPC controllers
 ├── environment.py          # Environment visualization and collision detection
 ├── pathplanning.py         # Geometric path planning algorithms

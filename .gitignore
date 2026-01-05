@@ -39,6 +39,21 @@ reports/
 *.jpg
 *.jpeg
 
+# Exception: Allow images needed for README documentation
+# First un-ignore the directories
+!reports/
+!log results/
+# Then un-ignore the specific files
+!reports/parking_maneuver.gif
+!reports/reference_trajectory.png
+!log results/x.png
+!log results/y.png
+!log results/v.png
+!log results/psi.png
+!log results/accelerate.png
+!log results/steer.png
+!log results/position.png
+
 # OS
 .DS_Store
 Thumbs.db

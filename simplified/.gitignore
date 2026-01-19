@@ -1,0 +1,14 @@
+# Output directories
+reports/
+*.png
+*.gif
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+.idea/
+

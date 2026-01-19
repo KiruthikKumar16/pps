@@ -172,3 +172,4 @@ R_min = L / tan(δ_max)
 **Version:** Simplified 1.0  
 **Scope:** Educational / case-study demonstration  
 
+

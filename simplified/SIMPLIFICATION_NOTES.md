@@ -70,6 +70,15 @@ This folder contains a simplified version of the parallel parking simulation, de
    - Clearer progress indicators
    - Summary at the end
 
+## Documentation Files
+
+This simplified version includes comprehensive guides:
+
+- **`QUICK_START.md`**: Simple explanation and quick reference
+- **`CUSTOMIZATION_GUIDE.md`**: Complete guide to all customization options
+- **`README.md`**: Project overview and usage instructions
+- **`REPORT.md`**: Full technical report (like original version)
+
 ## How to Use for Case Study
 
 ### 1. Run the Simulation
@@ -85,9 +94,13 @@ python simulate.py
 - Open `reports/parking_maneuver.gif` - shows the animated parking
 - Open `reports/reference_trajectory.png` - shows the planned path
 
-### 3. Explain the Code
+### 3. Understand the Code
 
-1. **`simulate.py`**: Main script - shows the overall flow
+**Start with:** `QUICK_START.md` - Simple overview  
+**For details:** `CUSTOMIZATION_GUIDE.md` - Complete explanations
+
+**Key files:**
+1. **`simulate.py`**: Main script - shows the overall flow (lines 35-59 are parameters!)
 2. **`control.py`**: Vehicle physics - explain the kinematic equations
 3. **`pathplanning.py`**: Path planning - explain geometric calculations
 4. **`environment.py`**: Visualization - explain collision detection
